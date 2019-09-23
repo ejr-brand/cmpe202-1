@@ -10,17 +10,21 @@ Q2 - 2 quarter gumball machine
 
 C - any coin gumball machine
 
+
 Variables added to class and constructor:
 
 private Type has_type - denotes the type of gumball machine being created
 
 private int sum - used later for 2 quarter and any coin gumball machine to keep track of coins
 
+
 ```insertCoin()```
 Changed to a more generic name for scalability for other gumball platforms.  Added more ifs to be able to handle the the different gumball machines and their respective coin limitations
 
+
 ```turnCrank()```
 Adjusted some of the print statements to be more generic so that it can handle all types of gumball machines 
+
 
 Main method (testing):
 
